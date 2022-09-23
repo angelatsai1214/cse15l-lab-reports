@@ -7,9 +7,7 @@
 I am a first year student studying **Math and Computer Science** at *UC San Diego*! My home town is Los Angeles. I recently got a pin and I would like to share the quote on it:
 > “The only person you should compare yourself to is the person that you were yesterday.”
 
-I really like this quote because it reminds me that I shouldn't be intimidated the fact that I am entering
-
-a very competitive field and there are many good CS people out there, rather I should only compare with myself and be proud of my progress along the way!  
+I really like this quote because it reminds me that I shouldn't be intimidated the fact that I am entering a very competitive field and there are many good CS people out there, rather I should only compare with myself and be proud of my progress along the way!  
 
 ---
 
@@ -21,12 +19,13 @@ I am still a beginner in the field of CS, but here are some coding languages/tec
 - HTML/CSS/JS
 
 I have made some simple projects in the past too, feel free to click on the links and check them out!
-1. [Tic-Tac-Toe 2.0 (Java)](https://github.com/angelatsai1214/TicTacToe-2.0)
-2. [Hangman (Python)](https://github.com/angelatsai1214/Hangman.py)
-3. [Question Discord Bot (Python)](https://github.com/angelatsai1214/Questions-Bot)
-4. Hotel Management System (C++)
-5. [Rock-Papper-Scissor Game (HTML/CSS/JS)](https://github.com/angelatsai1214/Rock-Paper-Scissor-DOM)
-6. [Tip Calculator (HTML/CSS/JS)](https://github.com/angelatsai1214/Tip-Calculator-DOM)
+1. Java
+  - [Tic-Tac-Toe 2.0](https://github.com/angelatsai1214/TicTacToe-2.0)
+3. [Hangman (Python)](https://github.com/angelatsai1214/Hangman.py)
+4. [Question Discord Bot (Python)](https://github.com/angelatsai1214/Questions-Bot)
+5. Hotel Management System (C++)
+6. [Rock-Papper-Scissor Game (HTML/CSS/JS)](https://github.com/angelatsai1214/Rock-Paper-Scissor-DOM)
+7. [Tip Calculator (HTML/CSS/JS)](https://github.com/angelatsai1214/Tip-Calculator-DOM)
 
 
 ---
@@ -39,4 +38,20 @@ If you'd like to connect with me, the followings are links to my Linkedin and De
 
 ---
 
-`Hello World!`
+## Other Markdown Practices
+
+### Paragraphs
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### Code
+In-line: `Hello World!`
+Code block:
+```
+String name = "Angela";
+System.out.println("Hello " + name);
+```
+Nested-lists:
+* Dinning Dollars:
+- 
