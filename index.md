@@ -51,6 +51,7 @@ It has survived not only five centuries, but also the leap into electronic types
 
 ### Code
 In-line: `Hello World!`
+
 Code block:
 ```
 String name = "Angela";
