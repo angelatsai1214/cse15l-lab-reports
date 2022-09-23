@@ -4,9 +4,9 @@
 
 
 ## About Me! 
-I am a first year student studying ""Math and Computer Science** at *UC San Diego*! My home town is Los Angeles. I recently got a pin and I really like the quote on it:
-> “The Only Person You Should Compare Yourself to is The Person that You Were Yesterday.”
-
+I am a first year student studying ""Math and Computer Science** at *UC San Diego*! My home town is Los Angeles. I recently got a pin and I would like to share the quote on it:
+> “The only person you should compare yourself to is the person that you were yesterday.”
+I really like this quote because it reminds me that I shouldn't be intimidated the fact that I am entering a very competitive field and there are many good CS people out there, rather I should only compare with myself and be proud of my progress along the way!  
 
 ---
 
