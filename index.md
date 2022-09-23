@@ -57,3 +57,9 @@ Code block:
 String name = "Angela";
 System.out.println("Hello " + name);
 ```
+
+--- 
+
+## Coding in VS Code
+
+**this** formatting updates as *I type*
