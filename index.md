@@ -42,6 +42,12 @@ If you'd like to connect with me, the followings are links to my Linkedin and De
 
 ---
 
+## Navigate to my Lab Page for CSE 15L!
+
+[Lab Report 1](https://angelatsai1214.github.io/<your-lab-reports-repo>/lab-report-1-week-0.html)
+
+---
+
 ## Other Markdown Practices
 
 ### Paragraphs
@@ -63,3 +69,4 @@ System.out.println("Hello " + name);
 ## Coding in VS Code
 
 **this** formatting updates as *I type*
+
