@@ -1,3 +1,3 @@
-![Image](Image/Screenshot.png)
+Here's a screenshot of me doing CSE 15L Week 0 HW!
 
-![Image](C:\Users\ITSloaner\Documents\GitHub\cse15l-lab-reports\Images\Screenshot.png)
+![Image](Images/Screenshot.png)
