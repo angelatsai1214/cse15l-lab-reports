@@ -22,11 +22,14 @@ I have made some simple projects in the past too, feel free to click on the link
 1. Java
    - [Tic-Tac-Toe 2.0](https://github.com/angelatsai1214/TicTacToe-2.0)
 2. Python
-   -[Hangman](https://github.com/angelatsai1214/Hangman.py)
-4. [Question Discord Bot (Python)](https://github.com/angelatsai1214/Questions-Bot)
-5. Hotel Management System (C++)
-6. [Rock-Papper-Scissor Game (HTML/CSS/JS)](https://github.com/angelatsai1214/Rock-Paper-Scissor-DOM)
-7. [Tip Calculator (HTML/CSS/JS)](https://github.com/angelatsai1214/Tip-Calculator-DOM)
+   - [Hangman](https://github.com/angelatsai1214/Hangman.py)
+   - [Question Discord Bot](https://github.com/angelatsai1214/Questions-Bot)
+3. C++
+   - Hotel Management System
+   - Pizza Ordering System
+4. HTML/CSS/JS
+   - [Rock-Papper-Scissor Game](https://github.com/angelatsai1214/Rock-Paper-Scissor-DOM)
+   - [Tip Calculator](https://github.com/angelatsai1214/Tip-Calculator-DOM)
 
 
 ---
@@ -53,6 +56,3 @@ Code block:
 String name = "Angela";
 System.out.println("Hello " + name);
 ```
-Nested-lists:
-* Dinning Dollars:
-- 
