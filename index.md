@@ -30,8 +30,8 @@ I have made some simple projects in the past too, feel free to click on the link
 
 ## Stay Connected
 If you'd like to connect with me, the followings are links to my Linkedin and Devpost!
-[Linkedin](https://www.linkedin.com/in/cho-jung-tsai-756150215/)
-[Devpost](https://devpost.com/29317?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav)
+1. [Linkedin](https://www.linkedin.com/in/cho-jung-tsai-756150215/)
+2. [Devpost](https://devpost.com/29317?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav)
 
 
 
