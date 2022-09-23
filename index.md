@@ -20,8 +20,9 @@ I am still a beginner in the field of CS, but here are some coding languages/tec
 
 I have made some simple projects in the past too, feel free to click on the links and check them out!
 1. Java
-  - [Tic-Tac-Toe 2.0](https://github.com/angelatsai1214/TicTacToe-2.0)
-3. [Hangman (Python)](https://github.com/angelatsai1214/Hangman.py)
+   - [Tic-Tac-Toe 2.0](https://github.com/angelatsai1214/TicTacToe-2.0)
+2. Python
+   -[Hangman](https://github.com/angelatsai1214/Hangman.py)
 4. [Question Discord Bot (Python)](https://github.com/angelatsai1214/Questions-Bot)
 5. Hotel Management System (C++)
 6. [Rock-Papper-Scissor Game (HTML/CSS/JS)](https://github.com/angelatsai1214/Rock-Paper-Scissor-DOM)
