@@ -1,3 +1,5 @@
+# Week 1 Lab Report
+
 ## Get your Username and Password for CSE15L Account
 1. Go to the website [Educational Technology Services](https://sdacs.ucsd.edu/~icc/index.php). 
 2. Enter your UCSD active directly username and your student ID to lookup your account. 
