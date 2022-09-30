@@ -175,4 +175,16 @@ Note: I am on the Windows system.
 
 ## Optimize Remote Running
 
+1. Make a random change to the local `WhereAmI.java` file. For me I just added an additional print statement at the end. 
 
+    ![Image](/Images/WhereAmIChange.png)
+
+2. Compile the code using `javac WhereAmI.java`.
+
+3. Now, run `scp` and `ssh` command.
+
+4. Print out the file on the remote computer to make sure it has been updated!
+
+    ![Image](/Images/WhereAmIUpdated.png)
+
+I used the up-arrow on my keyboard and `!` with command number to save the amount of typing. I think it was under 10 keystrokes. 
