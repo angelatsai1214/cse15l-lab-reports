@@ -49,6 +49,7 @@ If you'd like to connect with me, the followings are links to my Linkedin and De
 ## Navigate to my Lab Page for CSE 15L!
 
 [Lab Report 1](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+[Lab Report 2](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-2-week-1.html)
 
 ---
 
