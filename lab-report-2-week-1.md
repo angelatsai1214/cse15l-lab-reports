@@ -1,8 +1,9 @@
 ## Get your Username and Password for CSE15L Account
-1. Enter your UCSD active directly username and your student ID to lookup your account
-2. Jot down your username 
-3. Reset your password on [Educational Technology Services](https://sdacs.ucsd.edu/~icc/index.php)
-4. Wait for at least 5 minutes
+1. Go to the website [Educational Technology Services](https://sdacs.ucsd.edu/~icc/index.php). 
+2. Enter your UCSD active directly username and your student ID to lookup your account. 
+3. Jot down your username, best to memorize it even!
+3. Reset your password. 
+4. Wait for at least 5 minutes. 
 
 ## Setup the Working Environment
 1. Follow this link to download [Visual Studio Code](https://code.visualstudio.com/) on your computer.
@@ -17,11 +18,11 @@
 
     ![Image](/Images/githubPage.png)
     
-3. The GitHub Desktop will open automatically, then you just click on **Open in Visual Studio Code**
+3. The GitHub Desktop will open automatically, then you just click on **Open in Visual Studio Code**.
 
     ![Image](/Images/githubDesktop.png)
 
-3. In Visual Studio Code, on the top toolbar, select **Terminal** > **New Terminal** to open up the terminal if it is not already open
+3. In Visual Studio Code, on the top toolbar, select **Terminal** > **New Terminal** to open up the terminal if it is not already open.
 
     ![Image](/Images/openTerminal.png)
 
@@ -38,10 +39,12 @@
 
     Then you may press Enter.
 
-    Note: If you are connecting to a remoate computer for the first time, you will see the following in your terminal:
+    Note: If you are connecting to a remote computer for the first time, you will see the following in your terminal:
 
     ```
-    The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established. RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established. 
+    RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec. 
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
     Please proceed by entering **yes**.
 
@@ -51,9 +54,9 @@
 
 3. The terminal will print out several lines of information once you are logged in, the final line you should see is the current date and time as well as 
 
-    `- Prepping [your username]`
+    ```- Prepping [your username]```
 
-    Overall, your terminal should look something like this:
+    Overall, your terminal should look something like this by now:
     
     ![Image](/Images/login.png)
 
@@ -88,7 +91,7 @@
 
 ## Moving Files with `scp`
 
-Next, we will learn how to move files from your local computer to your remote computer.
+Next, we will learn how to securely copy files from your local computer to your remote computer.
 
 1. Before we start, you need to logout of your remote computer first. To do so, you may either use `ctrl+D` on your keyboard or enter `exit` in the terminal.
 
@@ -126,7 +129,7 @@ Next, we will learn how to move files from your local computer to your remote co
 
     `scp WhereAmI.java cs15lfa22bi@ieng.ucsd.edu:~/`
 
-    `scp` stands for **secure copy**, you enter the file you want to copy over immediately after `scp`, and following the file name, you enter the destination of copying.
+    `scp` stands for **secure copy**, you enter the file you want to copy immediately after `scp`, and following the file name, you enter the destination of copying.
 
     Your will be prompted to enter your password, please do so. 
 
@@ -187,4 +190,8 @@ Note: I am on the Windows system.
 
     ![Image](/Images/WhereAmIUpdated.png)
 
-I used the up-arrow on my keyboard and `!` with command number to save the amount of typing. I think it was under 10 keystrokes. 
+I used the up-arrow on my keyboard and `!` with command number to save the amount of typing. I think it was under 10 keystrokes.
+
+
+
+## Thanks for reading this!
