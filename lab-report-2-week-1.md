@@ -18,7 +18,7 @@
 
     Click on the green button that says **Code**, then click on **Open with GitHub Desktop** after you have installed GitHub Desktop on your computer.
 
-    ![Image](/Images/githubPage.png)
+    ![Image](Images/githubPage.png)
     
 3. The GitHub Desktop will open automatically, then you just click on **Open in Visual Studio Code**.
 
