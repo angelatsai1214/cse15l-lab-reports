@@ -3,6 +3,7 @@
 ## Simplest Search Engine
 
 Code:
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -54,10 +55,8 @@ public class SearchEngine {
 
 Results:
 
-![Image](images/root.png)
-![Image](images/addApple.png)
-![Image](images/appleAdded.png)
-![Image](images/addPineapple.png)
-![Image](images/pineappleAdded.png)
-
-
+![Image](/Images/root.png)
+![Image](/Images/addApple.png)
+![Image](/Images/appleAdded.png)
+![Image](/Images/addPineapple.png)
+![Image](/Images/pineappleAdded.png)
