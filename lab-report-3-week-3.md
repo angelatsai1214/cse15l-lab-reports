@@ -56,7 +56,17 @@ public class SearchEngine {
 Results:
 
 ![Image](/Images/root.png)
-![Image](/Images/addApple.png)
-![Image](/Images/appleAdded.png)
+1. The handleRequest method inside the Handler class was called.
+2. There wasn't an argument.
+3. n/a
+
 ![Image](/Images/addPineapple.png)
-![Image](/Images/pineappleAdded.png)
+1. The handleRequest method inside the Handler class was called.
+2. The relevant argument was 'add' and 'pineapple'
+3. If 'add' was changed to 'search' then searching will be performed. If 'pineapple" was changed to 'apple' then 'apple' will be added instead.
+
+![Image](/Images/findPineapple.png)
+1. The handleRequest method inside the Handler class was called.
+2. The relevant argument was 'search' and 'pineapple'
+3. If 'search' was changed to 'add' then addition will be performed. If 'pineapple" was changed to 'apple' then 'apple' will be searched for instead.
+
