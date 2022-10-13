@@ -50,6 +50,7 @@ If you'd like to connect with me, the followings are links to my Linkedin and De
 
 [Lab Report 1](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 [Lab Report 2](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-2-week-1.html)
+[Lab Report 3](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-3-week-3.html)
 
 ---
 
