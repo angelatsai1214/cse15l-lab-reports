@@ -51,3 +51,13 @@ public class SearchEngine {
     }
 }
 ```
+
+Results:
+
+![Image](images/root.png)
+![Image](images/addApple.png)
+![Image](images/appleAdded.png)
+![Image](images/addPineapple.png)
+![Image](images/pineappleAdded.png)
+
+
