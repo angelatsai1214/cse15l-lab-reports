@@ -95,4 +95,4 @@ public class SearchEngine {
 - The bug was that inside the last while loop for the method, index1 was being updated instead of index2.
 - The original code caused an infinite loop because the value being checked for the while loop wasn't being updated at all inside the loop. When I updated `index1 += 1` to `index2 += 1` the code worked. 
 
-![Image](/Images/correctedmerge.png)
+![Image](/Images/correctedMerge.png)
