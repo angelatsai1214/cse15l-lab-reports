@@ -76,7 +76,7 @@ public class SearchEngine {
 
 # Part 2
 
-## Bug 1: averageWithoutLowest from ArrayExamples Class
+## Bug 1: averageWithoutLowest Method from ArrayExamples Class
 
 ![Image](/Images/testAverageError2.png)
 
@@ -87,4 +87,12 @@ public class SearchEngine {
 
 ![Image](/Images/correctedAverage.png)
 
-## Bug 2: 
+## Bug 2: merge Method from ListExamples Class
+
+![Image](/Images/mergeError.png)
+- The failure-inducing input was any input that has a non-empty second list (second argument to the method).
+- Symptom: `java.lang.OutOfMemoryError: Java heap space`
+- The bug was that inside the last while loop for the method, index1 was being updated instead of index2.
+- The original code caused an infinite loop because the value being checked for the while loop wasn't being updated at all inside the loop. When I updated `index1 += 1` to `index2 += 1` the code worked. 
+
+![Image](/Images/correctedmerge.png)
