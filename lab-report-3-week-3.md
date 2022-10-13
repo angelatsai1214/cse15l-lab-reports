@@ -1,6 +1,7 @@
-# Part 1
+# Week 3 Lab Report
+## Part 1
 
-## Simplest Search Engine
+### Simplest Search Engine
 
 **Code**:
 
@@ -74,9 +75,9 @@ public class SearchEngine {
 ---
 
 
-# Part 2
+## Part 2
 
-## Bug 1: averageWithoutLowest Method from ArrayExamples Class
+### Bug 1: averageWithoutLowest Method from ArrayExamples Class
 
 ![Image](/Images/testAverageError2.png)
 
@@ -87,7 +88,7 @@ public class SearchEngine {
 
 ![Image](/Images/correctedAverage.png)
 
-## Bug 2: merge Method from ListExamples Class
+### Bug 2: merge Method from ListExamples Class
 
 ![Image](/Images/mergeError.png)
 - The failure-inducing input was any input that has a non-empty second list (second argument to the method).
