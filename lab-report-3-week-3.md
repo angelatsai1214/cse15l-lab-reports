@@ -77,27 +77,27 @@ public class SearchEngine {
 ## Part 2
 
 ### Bug 1: averageWithoutLowest Method from ArrayExamples Class
-One Test Did Not Pass for the Method:
+One test did not pass for the method:
 ![Image](/Images/testAverageError2.png)
-Where the Bug was in the Original Code:
+Where the bug was in the original code:
 ![Image](/Images/listExampleError.png)
 - The failure-inducing input was `{ 6.0, 6.0, 3.0, 3.0 }`, but it was essentially any arrays that has duplicating lowest values
 - Symptom: `java.lang.AssertionError: expected:[5.0] but was:[4.0]` since I was using `assertEquals` method for JUnit
 - The bug was that the loop for getting the sum needs to be modified. There are probably various ways to modify it, but I just removed the if statement inside the summing for loop and later substracted the lowest number from the total sum. You can see from the image below that the test passed after that. (see previous picture)
 - The original code was buggy because it was excluding every number that equals the lowest number from the calculation of sum. I my test case, 3.0 was the lowest number in the array. The code would result in a sum that is 6.0 + 6.0 = 12.0 only, and yet this sum is still divided by 3, which means the average will be 4.0. However, the actual average should be (6.0 + 6.0 + 3.0)/3 = 5.0.
 
-Fixed Code + Test Passed:
+Fixed code + Test passed:
 ![Image](/Images/correctedAverage.png)
 
 ### Bug 2: merge Method from ListExamples Class
-Where the Bug was in the Original Code:
+Where the bug was in the original code + Failure in the test:
 ![Image](/Images/mergeError.png)
 - The failure-inducing input was any input that has a non-empty second list (second argument to the method).
 - Symptom: `java.lang.OutOfMemoryError: Java heap space`
 - The bug was that inside the last while loop for the method, index1 was being updated instead of index2. 
 - The original code caused an infinite loop because the value being checked for the while loop wasn't being updated at all inside the loop. When I updated `index1 += 1` to `index2 += 1` the code worked. 
 
-Fixed Code:
+Fixed code:
 ![Image](/Images/fixedtoindex2.png)
 The test ran successfully after changing the line of code:
 ![Image](/Images/correctedMerge.png)
