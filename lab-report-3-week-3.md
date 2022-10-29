@@ -69,7 +69,7 @@ public class SearchEngine {
 ![Image](/Images/findPineapple.png)
 1. The handleRequest method inside the Handler class was called.
 2. The relevant argument was '/search'.
-3. No relevant fields are changed after the request is done processing.
+3. No relevant fields are changed after the request is done processing because it is only attempting to find a word in the list.
 
 ---
 
