@@ -1,8 +1,9 @@
-# Part 1
+# Week 3 Lab Report
+## Part 1
 
-## Simplest Search Engine
+### Simplest Search Engine
 
-Code:
+**Code**:
 
 ```
 import java.io.IOException;
@@ -53,10 +54,50 @@ public class SearchEngine {
 }
 ```
 
-Results:
+**Results**:
 
 ![Image](/Images/root.png)
-![Image](/Images/addApple.png)
-![Image](/Images/appleAdded.png)
+1. The handleRequest method inside the Handler class was called.
+2. An url is passed in. In the image above, the url is `localhost:4000`.
+3. The argument is an url and does not change after the request is done processing.
+
 ![Image](/Images/addPineapple.png)
-![Image](/Images/pineappleAdded.png)
+1. The handleRequest method inside the Handler class was called.
+2. The relevant argument was '/add'.
+3. After the request done processing, an additional word is added to the word list, in this case, the word is "pineapple".
+
+![Image](/Images/findPineapple.png)
+1. The handleRequest method inside the Handler class was called.
+2. The relevant argument was '/search'.
+3. No relevant fields are changed after the request is done processing because it is only attempting to find a word in the list.
+
+---
+
+
+## Part 2
+
+### Bug 1: averageWithoutLowest Method from ArrayExamples Class
+One test did not pass for the method:
+![Image](/Images/testAverageError2.png)
+Where the bug was in the original code:
+![Image](/Images/listExampleError.png)
+- The failure-inducing input was `{ 6.0, 6.0, 3.0, 3.0 }`, but it was essentially any arrays that has duplicating lowest values
+- Symptom: `java.lang.AssertionError: expected:[5.0] but was:[4.0]` since I was using `assertEquals` method for JUnit
+- The bug was that the loop for getting the sum needs to be modified (see previous image). There are probably various ways to modify it, but I just removed the if statement inside the summing for loop and later substracted the lowest number from the total sum. You can see from the image below that the test passed after that. 
+- The original code was buggy because it was excluding every number that equals the lowest number from the calculation of sum. I my test case, 3.0 was the lowest number in the array. The code would result in a sum that is 6.0 + 6.0 = 12.0 only, and yet this sum is still divided by 3, which means the average will be 4.0. However, the actual average should be (6.0 + 6.0 + 3.0)/3 = 5.0.
+
+Fixed code + Test passed:
+![Image](/Images/correctedAverage.png)
+
+### Bug 2: merge Method from ListExamples Class
+Where the bug was in the original code + Failure in the test:
+![Image](/Images/mergeError.png)
+- The failure-inducing input was any input that has a non-empty second list (second argument to the method).
+- Symptom: `java.lang.OutOfMemoryError: Java heap space`
+- The bug was that inside the last while loop for the method, index1 was being updated instead of index2. 
+- The original code caused an infinite loop because the value being checked for the while loop wasn't being updated at all inside the loop. When I updated `index1 += 1` to `index2 += 1` the code worked. 
+
+Fixed code:
+![Image](/Images/fixedtoindex2.png)
+The test ran successfully after changing the line of code:
+![Image](/Images/correctedMerge.png)
