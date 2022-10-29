@@ -80,11 +80,13 @@ public class SearchEngine {
 ### Bug 1: averageWithoutLowest Method from ArrayExamples Class
 
 ![Image](/Images/testAverageError2.png)
-
+![Image](/Images/listExampleError.png)
 - The failure-inducing input was `{ 6.0, 6.0, 3.0, 3.0 }`, but it was essentially any arrays that has duplicating lowest values
 - Symptom: `java.lang.AssertionError: expected:[5.0] but was:[4.0]` since I was using `assertEquals` method for JUnit
-- The bug was that the loop for getting the sum needs to be modified. There are probably various ways to modify it, but I just removed the if statement inside the summing for loop and later substracted the lowest number from the total sum. You can see from the image below that the test passed after that. 
+- The bug was that the loop for getting the sum needs to be modified. There are probably various ways to modify it, but I just removed the if statement inside the summing for loop and later substracted the lowest number from the total sum. You can see from the image below that the test passed after that. (see previous picture)
 - The original code was buggy because it was excluding every number that equals the lowest number from the calculation of sum. I my test case, 3.0 was the lowest number in the array. The code would result in a sum that is 6.0 + 6.0 = 12.0 only, and yet this sum is still divided by 3, which means the average will be 4.0. However, the actual average should be (6.0 + 6.0 + 3.0)/3 = 5.0.
+
+![Image](/Images/mergeError.png)
 
 ![Image](/Images/correctedAverage.png)
 
@@ -93,7 +95,10 @@ public class SearchEngine {
 ![Image](/Images/mergeError.png)
 - The failure-inducing input was any input that has a non-empty second list (second argument to the method).
 - Symptom: `java.lang.OutOfMemoryError: Java heap space`
-- The bug was that inside the last while loop for the method, index1 was being updated instead of index2.
+- The bug was that inside the last while loop for the method, index1 was being updated instead of index2. 
 - The original code caused an infinite loop because the value being checked for the while loop wasn't being updated at all inside the loop. When I updated `index1 += 1` to `index2 += 1` the code worked. 
+
+Fixed Code:
+![Image](/Images/fixedtoindex2.png)
 
 ![Image](/Images/correctedMerge.png)
