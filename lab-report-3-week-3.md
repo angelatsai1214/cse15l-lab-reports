@@ -77,20 +77,20 @@ public class SearchEngine {
 ## Part 2
 
 ### Bug 1: averageWithoutLowest Method from ArrayExamples Class
-
+One Test Did Not Pass for the Method:
 ![Image](/Images/testAverageError2.png)
+Where the Bug was in the Original Code:
 ![Image](/Images/listExampleError.png)
 - The failure-inducing input was `{ 6.0, 6.0, 3.0, 3.0 }`, but it was essentially any arrays that has duplicating lowest values
 - Symptom: `java.lang.AssertionError: expected:[5.0] but was:[4.0]` since I was using `assertEquals` method for JUnit
 - The bug was that the loop for getting the sum needs to be modified. There are probably various ways to modify it, but I just removed the if statement inside the summing for loop and later substracted the lowest number from the total sum. You can see from the image below that the test passed after that. (see previous picture)
 - The original code was buggy because it was excluding every number that equals the lowest number from the calculation of sum. I my test case, 3.0 was the lowest number in the array. The code would result in a sum that is 6.0 + 6.0 = 12.0 only, and yet this sum is still divided by 3, which means the average will be 4.0. However, the actual average should be (6.0 + 6.0 + 3.0)/3 = 5.0.
 
-![Image](/Images/mergeError.png)
-
+Fixed Code + Test Passed:
 ![Image](/Images/correctedAverage.png)
 
 ### Bug 2: merge Method from ListExamples Class
-
+Where the Bug was in the Original Code:
 ![Image](/Images/mergeError.png)
 - The failure-inducing input was any input that has a non-empty second list (second argument to the method).
 - Symptom: `java.lang.OutOfMemoryError: Java heap space`
@@ -99,5 +99,5 @@ public class SearchEngine {
 
 Fixed Code:
 ![Image](/Images/fixedtoindex2.png)
-
+The test ran successfully after changing the line of code:
 ![Image](/Images/correctedMerge.png)
