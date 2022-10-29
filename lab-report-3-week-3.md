@@ -58,19 +58,18 @@ public class SearchEngine {
 
 ![Image](/Images/root.png)
 1. The handleRequest method inside the Handler class was called.
-2. There wasn't an argument.
-3. n/a
+2. An url is passed in. In the image above, the url is `localhost:4000`.
+3. The argument is an url and does not change after the request is done processing.
 
 ![Image](/Images/addPineapple.png)
 1. The handleRequest method inside the Handler class was called.
-2. The relevant argument was 'add' and 'pineapple'
-3. If 'add' was changed to 'search' then searching will be performed. If 'pineapple" was changed to 'apple' then 'apple' will be added instead.
+2. The relevant argument was '/add'.
+3. After the request done processing, an additional word is added to the word list, in this case, the word is "pineapple".
 
 ![Image](/Images/findPineapple.png)
 1. The handleRequest method inside the Handler class was called.
-2. The relevant argument was 'search' and 'pineapple'
-3. If 'search' was changed to 'add' then addition will be performed. If 'pineapple" was changed to 'apple' then 'apple' will be searched for instead.
-
+2. The relevant argument was '/search'.
+3. No relevant fields are changed after the request is done processing.
 
 ---
 
