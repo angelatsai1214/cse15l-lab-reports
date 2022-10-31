@@ -4,7 +4,7 @@
 
 `grep`
 
-1. `-v` makes `grep` search for non-matching files.
+1. `-v` makes `grep` search for non-matching files. This command-line option can be helpful when we want to filter out files as we search. 
    
    - Example 1:
      ```
@@ -37,7 +37,7 @@
      technical/government/Post_Rate_Comm/WolakSpeech_usps.txt
      ```
 
-2. `-c` makes `grep` return the count of files matching the search case.
+2. `-c` makes `grep` return the count of files matching the search case. This command-line option is helpful when we only want to know how many files are matching our search case and not the specific file names and paths. 
    
    - Example 1:
      ```
@@ -58,7 +58,7 @@
      11
      ```
 
-3. `-i` makes the search non-case-sensitive.
+3. `-i` makes the search non-case-sensitive. This command-line option is helpful when we want to find all finds that match the search case, ignoring upper or lower cases.
    
    - Example 1:
      ```
