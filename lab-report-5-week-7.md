@@ -4,9 +4,16 @@
 
 ### Task Chosen: Changing the name of the `start` parameter and its uses to `base`
 
+Pre-steps to Perform:
+- Login to remote account (because I am a Windows user)
+- `cd week6-skill-demo1`
+- `vim DocSearchServer.java`
+
 Shortest vim command we came up with:
 
  `/start`
+ 
+ This command allows use to search for the word `start` inside the `DocSearchServer.java` file.
  ![Image](/Images/start.png)
  
  `<Enter>`
@@ -43,4 +50,9 @@ Second `n`
 Second `.`
 ![image](https://user-images.githubusercontent.com/64194102/201226167-349b59bd-da6f-4fcb-b8d6-5fc59b88d707.png)
 
+Now, we've finished editing so we use `:wq` to save and quit vim mode.
+![image](https://user-images.githubusercontent.com/64194102/201226834-f3fe695e-2577-4fc2-bfcf-1538e9de244b.png)
+
+Finished quitting vim mode:
+![image](https://user-images.githubusercontent.com/64194102/201226837-73dda110-078c-473d-b690-00428c2e0b67.png)
 
