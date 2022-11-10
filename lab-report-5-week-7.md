@@ -10,21 +10,25 @@ Shortest vim command we came up with:
  ![Image](/Images/start.png)
  
  `<Enter>`
+ 
  Once you pressed Enter, the only the first letter of the word is highlighted.
  ![Image](/Images/enter.png)
  
 `ce base` 
+
 After `ce` command, the current search word `start` will be deleted, and we type `base` as the replacement word.
 ![Image](/Images/ce.png)
 ![image](https://user-images.githubusercontent.com/64194102/201225874-4991a25f-88e0-41b3-b6dd-52296ef136cd.png)
 
 
 `<Escape>`
+
 Escapes the Insert mode.
 ![image](https://user-images.githubusercontent.com/64194102/201225917-d0e7686c-d958-498f-b886-c0fb49dd79c2.png)
 
 
 `n` `.` `n` `.`
+
 Each `n` finds the next matching word to the search word in the file and each `.` performs the previous operation done in insert mode again.
 
 First `n`
