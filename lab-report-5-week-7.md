@@ -58,8 +58,8 @@ Finished quitting vim mode:
 
 ## Part 2
 
-- Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+- **Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?**
 I prefer making the edits locally because I am still not very familiar with all the VIM commands and scp file over to the remote server isn't very difficult either. 
 
-- What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+- **What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)**
 If it is just making a little edit, adding/changing one line in the code or replacing a few words, then I would be able to do that in the remote server. Otherwise, it is a more significant edit, I wouldn't want to do that using VIM. 
