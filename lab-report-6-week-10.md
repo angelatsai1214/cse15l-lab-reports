@@ -29,48 +29,27 @@ else
         exit 1
 fi
 ```
-- stdout:
-- stderr: 
-- exit code: 
-
-
-```
-if [[ -s TESTFILE ]]
-then
-        echo "Test file already exist"
-        cd ..
-else
-        cd ..
-        cp TestListExamples.java student-submission/
-        echo "Test file copied to student-submission folder"
-fi
-```
-- stdout:
-- stderr: 
-- exit code: 
+- stdout: "Submitted file has the wrong name or path" for the 5th and 6th submissions, "Correct files submitted" for all other submissions
+- stderr: no stderr
+- exit code: 1 for the 5th and 6th submissions, 0 for all other submissions
 
 ```
 cp -r lib student-submission/
 echo "lib folder copied over"
 ```
-- stdout:
-- stderr: 
-- exit code: 
+- stdout: no stdout for cp, stdout for echo is "lib folder copied over"
+- stderr: no stderr for both commands
+- exit code: 0 for both
 
 ```
 cd student-submission
 echo "In student-submission"
 ```
-- stdout:
-- stderr: 
-- exit code: 
+- stdout: no stdout for cd, stdout for echo is "In student-submission"
+- stderr: no stderr for both
+- exit code: 0 for both
 
-`javac -cp $CP *.java 2> compiledResults.txt`
-- stdout:
-- stderr: 
-- exit code: 
-
-```
+```javac -cp $CP *.java 2> compiledResults.txt
 ERRORNUMS=$( grep -o 'error' compiledResults.txt | wc -l | xargs )
 if [ $ERRORNUMS -eq 0 ]
 then
@@ -80,11 +59,9 @@ else
         exit 1
 fi
 ```
-- stdout:
-- stderr: 
-- exit code: 
-
-TOTALTESTS=2
+- stdout: "You have COMPILER ERROR" for the 3rd submission, "Compiled" for all other submission
+- stderr: no stderr
+- exit code: 1 for the 3rd submission, 0 for all other submissions
 
 ```
 java -cp $CP org.junit.runner.JUnitCore TestListExamples > results.txt
