@@ -59,13 +59,18 @@ GRADE=$(( ($CORRECT/$TOTALTESTS)*100 ))
 echo "Grade: $GRADE"
 ```
 
----
 
 # My 3 Screenshots:
 
+## Example 1
 ![Img](/Images/good.png)
+
+## Example 2
 ![Img](/Images/compileErr.png)
+
+## Example 3
 ![Img](/Images/fileName.png)
+
 
 # Trace for the 2nd Example
 
@@ -153,7 +158,7 @@ fi
 ```
 
 - stdout: "You have COMPILER ERROR"
-- stderr:
+- stderr: Stored inside compiledResults.txt but is shown below
   ```
   ListExamples.java:15: error: ';' expected
         result.add(0, s)
