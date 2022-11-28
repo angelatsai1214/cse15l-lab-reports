@@ -67,7 +67,7 @@ fi
         result.add(0, s)
                         ^
   1 error
-```
+
 for the 3rd submission (which is redirected to compiledResults.txt), no stderr for all other submissions
 - exit code: 1 for the 3rd submission, 0 for all other submissions
 
