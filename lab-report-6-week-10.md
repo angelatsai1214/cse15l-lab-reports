@@ -3,6 +3,8 @@
 - stderr: no error, so no stderr
 - exit code: 0
 
+---
+
  `git clone $1 student-submission`
  - stdout: no stdout (tried the command)
  - stderr: 
@@ -15,10 +17,14 @@
     Receiving objects: 100% (3/3), done.
  - exit code: 0
 
+---
+
 `cd student-submission/`
 - stdout: no stdout
 - stderr: no stderr
 - exit code: 0
+
+---
 
 ```
 if [ -f $FILE ]
@@ -33,6 +39,8 @@ fi
 - stderr: no stderr
 - exit code: 1 for the 5th and 6th submissions, 0 for all other submissions
 
+---
+
 ```
 cp -r lib student-submission/
 echo "lib folder copied over"
@@ -41,6 +49,8 @@ echo "lib folder copied over"
 - stderr: no stderr for both commands
 - exit code: 0 for both
 
+---
+
 ```
 cd student-submission
 echo "In student-submission"
@@ -48,6 +58,8 @@ echo "In student-submission"
 - stdout: no stdout for cd, stdout for echo is "In student-submission"
 - stderr: no stderr for both
 - exit code: 0 for both
+
+---
 
 ```
 javac -cp $CP *.java 2> compiledResults.txt
@@ -69,13 +81,23 @@ fi
   1 error
 - exit code: 1 for the 3rd submission, 0 for all other submissions
 
+---
+
 ```
 java -cp $CP org.junit.runner.JUnitCore TestListExamples > results.txt
 echo "Ran Junit Tests"
 ```
-- stdout:
-- stderr: 
-- exit code: 
+- stdout: 
+```
+JUnit version 4.13.2
+..
+Time: 0.014
+
+OK (2 tests)
+``` 
+The stdout for echo is "Ran Junit Tests"
+- stderr: No stderr
+- exit code: 0 for both
 
 `awk 'NR>=11 && NR<=13' results.txt > testResults.txt`
 - stdout:
