@@ -1,4 +1,6 @@
-# My grade.sh code:
+# Week 8/9/10 Lab Report
+
+## My grade.sh code:
 
 ```
 # Create your grading script here
@@ -60,19 +62,19 @@ echo "Grade: $GRADE"
 ```
 
 
-# My 3 Screenshots:
+## My 3 Screenshots:
 
-## Example 1
+### Example 1
 ![Img](/Images/good.png)
 
-## Example 2
+### Example 2
 ![Img](/Images/compileErr.png)
 
-## Example 3
+### Example 3
 ![Img](/Images/fileName.png)
 
 
-# Trace for the 2nd Example
+## Trace for the 2nd Example
 
 `rm -rf student-submission`
 
