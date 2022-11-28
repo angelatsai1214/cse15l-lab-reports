@@ -61,7 +61,14 @@ else
 fi
 ```
 - stdout: "You have COMPILER ERROR" for the 3rd submission, "Compiled" for all other submission
-- stderr: no stderr
+- stderr: 
+  ```
+  ListExamples.java:15: error: ';' expected
+        result.add(0, s)
+                        ^
+  1 error
+```
+for the 3rd submission (which is redirected to compiledResults.txt), no stderr for all other submissions
 - exit code: 1 for the 3rd submission, 0 for all other submissions
 
 ```
