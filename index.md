@@ -52,7 +52,8 @@ If you'd like to connect with me, the followings are links to my Linkedin and De
 2. [Lab Report 2](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-2-week-1.html)
 3. [Lab Report 3](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-3-week-3.html)
 4. [Lab Report 4](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-4-week-5.html)
-5. [Lab Report 5](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-5-week-8.html)
+5. [Lab Report 5](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-5-week-7.html)
+6. [Lab Report 6](https://angelatsai1214.github.io/cse15l-lab-reports/lab-report-6-week-8.html)
 
 ---
 
