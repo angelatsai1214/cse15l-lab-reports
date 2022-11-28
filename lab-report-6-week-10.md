@@ -49,7 +49,8 @@ echo "In student-submission"
 - stderr: no stderr for both
 - exit code: 0 for both
 
-```javac -cp $CP *.java 2> compiledResults.txt
+```
+javac -cp $CP *.java 2> compiledResults.txt
 ERRORNUMS=$( grep -o 'error' compiledResults.txt | wc -l | xargs )
 if [ $ERRORNUMS -eq 0 ]
 then
