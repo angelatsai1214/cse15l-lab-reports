@@ -58,6 +58,9 @@ Finished quitting vim mode:
 
 ## Part 2
 
+Time when doing locally: 1:33.06 seconds
+Time when using vim: 1:42.31 seconds
+
 - **Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?**
 
 I prefer making the edits locally because I am still not very familiar with all the VIM commands. scp the file over to the remote server isn't very difficult either since we have had many practices using that command already. 
