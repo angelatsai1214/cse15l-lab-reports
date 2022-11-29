@@ -9,7 +9,7 @@ Pre-steps to Perform:
 - `cd week6-skill-demo1`
 - `vim DocSearchServer.java`
 
-Shortest vim command we came up with:  `/start <Enter> ce base <Escape> n . n . <Esc> :wq`
+Shortest vim command we came up with:  `/start <Enter> ce base <Escape> n . n . <Escape> :wq`
 
  `/start`
  
